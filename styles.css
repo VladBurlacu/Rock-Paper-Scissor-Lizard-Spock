@@ -8,6 +8,8 @@ body {
 
 .midLeft #container div {
     display: inline-flex;
+    justify-content: space-between;
+
 }
 
 .midRight {
@@ -31,6 +33,19 @@ h1 {
     padding: 25px;
 }
 
+.midLeft #container div button {
+    border-radius: 30%;
+    font-size: 30px;
+    background-color: #180d53;
+    color: deeppink;
+    border: none;
+    margin: 50px;
+    padding: 15px;
+}
+
+#b1, #b2, #b3, b4, b5 {
+    display: none;
+}
 
 
 
