@@ -1,0 +1,36 @@
+body {
+    background-color: darkslategrey;
+}
+.midLeft {
+    display: flex;
+    float: left;
+}
+
+.midLeft #container div {
+    display: inline-flex;
+}
+
+.midRight {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.midRight h2 {
+    color: deeppink;
+    background-color: #180d53;
+    padding: 10px;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: deeppink;
+    background-color: #180d53;
+    padding: 25px;
+}
+
+
+
+
