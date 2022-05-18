@@ -7,8 +7,9 @@ body {
 }
 
 .midLeft #container div {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -43,9 +44,6 @@ h1 {
     padding: 15px;
 }
 
-#b1, #b2, #b3, b4, b5 {
-    display: none;
-}
 
 
 
