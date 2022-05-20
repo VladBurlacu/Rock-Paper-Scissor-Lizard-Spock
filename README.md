@@ -1,14 +1,20 @@
 # Title: Rock paper scissors lizard Spock
 
+
+[Play now!](https://vladburlacu.github.io/Rock-Paper-Scissor-Lizard-Spock/)
+
+
+This is one of the games we have to create, that's part of the two days project from [BeCode](https://becode.org) with clear learning objectives for each game.
+
 - Repository: `rock-paper-scissors-lizard-spock`
 - Type of Challenge: `Learning Challenge`
-- Duration: take your time
+- Duration: 2 days
 - Deployment strategy : Github page
 - Team challenge : `solo`
 
 ## Learning objectives
-- [] Generate random outcomes
-- [] If statements
+- [x] Generate random outcomes
+- [x] If statements
 - [] Coming up with a basic algoritm from scratch
 
 ## The Mission
@@ -35,9 +41,9 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - [] Have a reset button
 
 ## Nice-to-have features
-- [] Nice graphics
+- [x] Nice graphics
 - [] Let the player input using a text field
-- [] Show what the player picked by highlighting the correct button
+- [x] Show what the player picked by highlighting the correct button
 - [] Add even more options (but avoid using 100 if statements)
 - [] Add complex rules
 
