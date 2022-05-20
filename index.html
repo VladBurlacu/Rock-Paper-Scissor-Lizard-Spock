@@ -13,28 +13,40 @@
 <h1 id="welcome-message">Welcome to RPSLS</h1>
 
 
-<div class="midLeft">
-    <div id="game">
-        <div>
-            <button id="start">Play</button>
-        </div>
-        <div>
-            <button id="reset">Reset</button>
-        </div>
+<section class="midLeft">
+    <div class="choices">
+        <button class="choices" data-selection="rock" id="rock"><img src="Resources/rock.png" alt=""/></button>
+        <button class="choices" data-selection="paper" id="paper"><img src="Resources/paper.png" alt=""/></button>
+        <button class="choices" data-selection="scissor" id="scissor"><img src="Resources/scissor.jpg" alt=""/></button>
+        <button class="choices" data-selection="lizard" id="lizard"><img src="Resources/lizard.png" alt=""/></button>
+        <button class="choices" data-selection="spock" id="spock"><img src="Resources/spock.jpg" alt=""/></button>
     </div>
 
+    <div class="display">
+        <p>Your choice: </p>
+        <span class="resultScore"> </span>
+        <img src="" alt="" id="playerChoice" style="height: 180px; width: 180px;">
     </div>
 
-    <div class="midRight">
-        <iframe width="320" height="240" src="https://www.youtube.com/embed/Kov2G0GouBw" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <h2>Game rules:</h2>
-        <div id="gameRules">
-            <img src="Resources/RPSLS.webp" alt="">
-        </div>
+    <div class="display">
+        <button id="generate">Generate computer choice</button>
+        <span class="resultScore"> </span>
+        <img src="" alt="" id="computerChoice" >
+        <p id="result"></p>
+        <button id="win">Click to see the winner</button>
     </div>
+</section>
+
+<section class="midRight">
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/Kov2G0GouBw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    <h2>Game rules:</h2>
+    <div id="gameRules">
+        <img src="Resources/RPSLS.webp" alt="">
+    </div>
+</section>
 
 </body>
 </html>

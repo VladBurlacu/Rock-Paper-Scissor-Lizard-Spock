@@ -1,28 +1,30 @@
 body {
     background-color: darkslategrey;
 }
+
 .midLeft {
     display: flex;
+    flex-direction: column;
     float: left;
-}
-
-.midLeft #container div {
-    display: flex;
-    justify-content: space-between;
-
-
+    width: 60%
 }
 
 .midRight {
     display: flex;
     flex-direction: column;
     float: right;
+    width: 40%;
 }
 
 .midRight h2 {
     color: deeppink;
     background-color: #180d53;
     padding: 10px;
+}
+
+.midRight #gameRules img {
+    height: 48vh;
+    width: 48vh;
 }
 
 
@@ -34,16 +36,85 @@ h1 {
     padding: 25px;
 }
 
-.midLeft #container div button {
-    border-radius: 30%;
-    font-size: 30px;
-    background-color: #180d53;
-    color: deeppink;
+.choices img {
+    height: 180px;
+    width: 180px;
+    background:none;
     border: none;
-    margin: 50px;
-    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.choices button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    width: 60%;
 }
 
 
 
+.choices img:hover {
+    transform: scale(1.2);
+}
 
+.display {
+    padding: 2%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.display #generate {
+    border: none;
+    border-radius: 30%;
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: deeppink;
+    cursor: pointer;
+}
+
+.display #generate:hover {
+    transform: scale(1.2);
+}
+
+.display #win {
+    border: none;
+    border-radius: 30%;
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: deeppink;
+    cursor: pointer;
+}
+
+.display #win:hover {
+    transform: scale(1.2);
+}
+
+.resultScore {
+    margin-left: .1rem;
+    font-size: .5rem;
+}
+
+.display p {
+    font-size: 2.5rem;
+    color: deeppink;
+}
+
+.result-choice {
+opacity: .5;
+}
+
+.result-choice.winner {
+    opacity: 1;
+    font-size: 1.5rem;
+}
