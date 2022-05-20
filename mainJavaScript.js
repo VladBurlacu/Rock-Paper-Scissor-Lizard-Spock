@@ -8,22 +8,22 @@ document.getElementById('rock').addEventListener('click', () =>{
 })
 
 document.getElementById('paper').addEventListener('click', () =>{
-    playerChoice = 0;
+    playerChoice = 1;
     document.getElementById('playerChoice').src = "Resources/paper.png";
 })
 
 document.getElementById('scissor').addEventListener('click', () =>{
-    playerChoice = 0;
+    playerChoice = 2;
     document.getElementById('playerChoice').src = "Resources/scissor.jpg";
 })
 
 document.getElementById('lizard').addEventListener('click', () =>{
-    playerChoice = 0;
+    playerChoice = 3;
     document.getElementById('playerChoice').src = "Resources/lizard.png";
 })
 
 document.getElementById('spock').addEventListener('click', () =>{
-    playerChoice = 0;
+    playerChoice = 4;
     document.getElementById('playerChoice').src = "Resources/spock.jpg";
 })
 
