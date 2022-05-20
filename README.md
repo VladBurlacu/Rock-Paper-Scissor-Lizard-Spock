@@ -29,9 +29,9 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - Rock crushes Scissors
 
 ## Must-have features
-- [] Have 5 buttons that the player can press to change their pick
-- [] Have another button to let the computer pick one and show the winner
-- [] Let the player know they won (no alert box)
+- [x] Have 5 buttons that the player can press to change their pick
+- [x] Have another button to let the computer pick one and show the winner
+- [x] Let the player know they won (no alert box)
 - [] Have a reset button
 
 ## Nice-to-have features
@@ -43,3 +43,6 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 
 ## Optional personal goals:
 - 
+
+## EDIT:
+- I was sick one day and wasn't able to code. So I am one day behind for the 2 days that were assigned for this project. But I will continue working on this in the weekend
