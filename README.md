@@ -38,7 +38,7 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - [x] Have 5 buttons that the player can press to change their pick
 - [x] Have another button to let the computer pick one and show the winner
 - [x] Let the player know they won (no alert box)
-- [] Have a reset button
+- [x] Have a reset button
 
 ## Nice-to-have features
 - [x] Nice graphics

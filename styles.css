@@ -81,6 +81,7 @@ h1 {
     font-size: 2.5rem;
     color: deeppink;
     cursor: pointer;
+    transition: 100ms;
 }
 
 .display #generate:hover {
@@ -94,6 +95,7 @@ h1 {
     font-size: 2.5rem;
     color: deeppink;
     cursor: pointer;
+    transition: 100ms;
 }
 
 .display #win:hover {
@@ -131,4 +133,18 @@ opacity: .5;
 
 .display img {
     visibility: hidden;
+}
+
+.reset {
+    border: none;
+    border-radius: 30%;
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: deeppink;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.reset:hover {
+    transform: scale(1.2);
 }

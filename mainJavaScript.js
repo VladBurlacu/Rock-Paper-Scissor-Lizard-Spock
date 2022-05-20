@@ -77,3 +77,8 @@ document.getElementById('win').addEventListener('click', () => {
     }
 });
 
+document.getElementById('reset').addEventListener('click', () => {
+    location.reload();
+})
+
+
