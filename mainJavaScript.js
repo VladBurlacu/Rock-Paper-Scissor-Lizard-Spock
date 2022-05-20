@@ -5,26 +5,31 @@ let computerChoice;
 document.getElementById('rock').addEventListener('click', () =>{
     playerChoice = 0;
     document.getElementById('playerChoice').src = "Resources/rock.png";
+    document.getElementById(`playerChoice`).style.visibility = "visible";
 })
 
 document.getElementById('paper').addEventListener('click', () =>{
     playerChoice = 1;
     document.getElementById('playerChoice').src = "Resources/paper.png";
+    document.getElementById(`playerChoice`).style.visibility = "visible";
 })
 
 document.getElementById('scissor').addEventListener('click', () =>{
     playerChoice = 2;
     document.getElementById('playerChoice').src = "Resources/scissor.jpg";
+    document.getElementById(`playerChoice`).style.visibility = "visible";
 })
 
 document.getElementById('lizard').addEventListener('click', () =>{
     playerChoice = 3;
     document.getElementById('playerChoice').src = "Resources/lizard.png";
+    document.getElementById(`playerChoice`).style.visibility = "visible";
 })
 
 document.getElementById('spock').addEventListener('click', () =>{
     playerChoice = 4;
     document.getElementById('playerChoice').src = "Resources/spock.jpg";
+    document.getElementById(`playerChoice`).style.visibility = "visible";
 })
 
 document.getElementById('generate').addEventListener('click', () => {
@@ -33,14 +38,19 @@ document.getElementById('generate').addEventListener('click', () => {
 
     if (computerChoice === 0){
         document.getElementById('computerChoice').src = "Resources/rock.png";
+        document.getElementById(`computerChoice`).style.visibility = "visible";
     } else if (computerChoice === 1){
         document.getElementById('computerChoice').src = "Resources/paper.png";
+        document.getElementById(`computerChoice`).style.visibility = "visible";
     } else if (computerChoice === 2){
         document.getElementById('computerChoice').src = "Resources/scissor.jpg";
+        document.getElementById(`computerChoice`).style.visibility = "visible";
     }else if (computerChoice === 3){
         document.getElementById('computerChoice').src = "Resources/lizard.png";
+        document.getElementById(`computerChoice`).style.visibility = "visible";
     }else {
         document.getElementById('computerChoice').src = "Resources/spock.jpg";
+        document.getElementById(`computerChoice`).style.visibility = "visible";
     }
 });
 
@@ -66,3 +76,4 @@ document.getElementById('win').addEventListener('click', () => {
         document.getElementById('result').innerHTML = "COMPUTER WINS!";
     }
 });
+
